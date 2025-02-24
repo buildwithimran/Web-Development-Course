@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <input type="text" placeholder="Enter your email">
+
+        <label for="male">Male</label>
+        <input type="radio" value="male" name="gender">
+
+        <label for="fe-male">Fe-Male</label>
+        <input type="radio" value="fe-male" name="gender">
+
+
+        <h1>Choose course subject</h1>
+
+        <input type="checkbox" name="HTML" id="HTML">
+        <label for="HTML">HTML</label>
+        <br>
+
+        <input type="checkbox" name="CSS" id="CSS">
+        <label for="CSS">CSS</label>
+        <br>
+
+        <input type="checkbox" name="JAVASCRIPT" id="JAVASCRIPT">
+        <label for="JAVASCRIPT">JAVASCRIPT </label>
+
+        <input type="color" name="" id="">
+        <input type="date" name="" id="">
+        <input type="range" name="" id="">
+        <input type="submit" name="" id="">
+        <input type="reset" name="" id="">
+        <input type="password" name="" id="">
+    </form>
+
+
+    <form action="https://www.youtube.com/results" method="get">
+        <label for="search">Enter here:</label>
+        <input type="text" required placeholder="Enter what you want to search" id="search">
+        <button type="submit">Search</button>
+    </form>
+
+    <form action="https://www.youtube.com/results" method="get">
+        <label for="search">Search for a song:</label>
+        <input type="text" id="search" name="search_query" placeholder="Enter song name">
+        <button type="submit">Search</button>
+    </form>
+    <br><br>
+    <form action="">
+
+        <fieldset>
+            <legend>Signup form</legend>
+
+            <label for="search">Search for a song:</label>
+            <input type="text" id="search" name="search_query" placeholder="Enter song name">
+            <button type="submit">Search</button>
+
+            <button type="reset">Reset</button>
+        </fieldset>
+
+        <label for="country">Select a country</label>
+        <select name="" id="country">
+            <option value="PK">Pakistan</option>
+            <option value="IND">India</option>
+        </select>
+
+
+        <textarea name="" id=""></textarea>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Roll Num</th>
+                <th>Created Date</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="4">01</td>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Raheel</td>
+                <td>002</td>
+                <td>24 FEB 2025</td>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Raheel</td>
+                <td>002</td>
+                <td>24 FEB 2025</td>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Raheel</td>
+                <td>002</td>
+                <td>24 FEB 2025</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <video controls autoplay muted width="400">
+        <source src="./assets/videos/video-01.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <audio controls src="./assets/audios/corporate-life.mp3"></audio>
+
+</body>
+
+</html>
