@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    background: #fed7b6;
+}
+
+main {
+    width: 500px;
+    margin: 100px auto;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+}
+
+main form .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+main form .form-control label {
+    font-weight: 600;
+    font-style: italic;
+}
+
+main form .form-control input {
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid grey;
+}
